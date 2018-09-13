@@ -9,4 +9,13 @@ $(document).ready(function(){
         }
     })
 
+    //page sliding to form section
+    $("#toggle-button").click(function(){
+        if ($(".profile-description").css("display") == "none") {
+            $(".profile-description").css("display", "unset");
+        } else {
+            $(".profile-description").css("display", "none");
+        }
+    });
+
 });

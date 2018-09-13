@@ -61,6 +61,11 @@ p {
 
 #form-section {
     background: #ffffff;
+    position: relative;
+}
+
+.form-group.row {
+    margin-bottom: 21.9px;
 }
 
 .form-control:focus {
@@ -73,7 +78,7 @@ input::placeholder {
 }
 
 #user-details {
-    margin: 111px 38.9px 0 32px;
+    margin: 63px 38.9px 0 32px;
 }
 
 .icon-background {
@@ -89,6 +94,7 @@ input::placeholder {
 
 .icon-background:hover {
     border: 1.2px solid #b3c1ce;
+    margin-top: -1.2px;
 }
 
 .icon-background.female {
@@ -134,6 +140,36 @@ span {
 }
 
 .buttons {
-    text-align: center;
+    float: right;
     margin-top: 50px;
+}
+
+.btn.cancel {
+    width: 158.7px;
+    height: 53px;
+    margin-right: 21.3px;
+}
+
+.btn.cancel:hover {
+    background: #49c8a8;
+}
+
+.btn.save {
+    width: 158.7px;
+    height: 53px;
+}
+
+.btn.save:hover {
+    background: #49c8a8;
+}
+
+.profile-description {
+    background: #ff9200;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 109.5px;
 }
