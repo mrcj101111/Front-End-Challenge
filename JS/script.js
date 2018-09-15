@@ -5,11 +5,8 @@ $(document).ready(function(){
         if (window.matchMedia("(min-width: 768px)").matches) {
             $("#toggle-button").toggleClass("toggle-button-spin");
         } else if (window.matchMedia("(max-width: 768px)").matches)  {
-            if ($("#toggle-button").css("transform") == "rotate(360deg)") {
-            console.log("werk")
-            //$("#toggle-button").css("transform", "rotate(90deg)");
-            }
-        } 
+            $("#toggle-button").toggleClass("toggle-button-spin2");
+        };
     });
 
     //page sliding to form section

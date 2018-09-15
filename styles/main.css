@@ -65,7 +65,7 @@ p {
 }
 
 .toggle-button-spin2 {
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
 }
 
 /*From section css*/
@@ -219,10 +219,10 @@ span {
     }
 }
 
- @media(max-width: 767px) {
+@media(max-width: 767px) {
     #toggle-button {
-        transform: rotate(-90deg);
-    }
+    transform: rotate(-90deg);
+    } 
 
     .container {
         height: 100%;
