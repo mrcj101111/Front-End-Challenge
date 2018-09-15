@@ -4,7 +4,7 @@ $(document).ready(function(){
     $("#toggle-button").click(function(){
         if (window.matchMedia("(min-width: 768px)").matches) {
             $("#toggle-button").toggleClass("toggle-button-spin");
-        } else if (window.matchMedia("(max-width: 768px)").matches)  {
+        } else  {
             $("#toggle-button").toggleClass("toggle-button-spin2");
         };
     });
@@ -17,5 +17,4 @@ $(document).ready(function(){
             $(".profile-description").css("display", "none");
         }
     });
-
 });

@@ -65,7 +65,7 @@ p {
 }
 
 .toggle-button-spin2 {
-    transform: rotate(-180deg);
+    transform: rotate(90deg);
 }
 
 /*From section css*/
@@ -86,10 +86,6 @@ p {
 
 input::placeholder {
     color: #b1bfcd !important;
-}
-
-input:hover {
-    cursor: pointer;
 }
 
 #user-details {
@@ -188,7 +184,6 @@ span {
     left: 0;
     position: absolute;
     padding: 40px;
-    transition: delay 1s ease-in-out;
 }
 
 /*Media queries*/
@@ -266,7 +261,6 @@ span {
     .btn.save {
         width: 100%;
     }
-
 } 
 
 @media(max-width: 575px) {
